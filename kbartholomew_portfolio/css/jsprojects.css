@@ -1,0 +1,591 @@
+﻿#jsmodal{
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+.js-btn1{
+    margin: 5px 5px 0px 5px;
+    background-color: #444444;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+.js-btn2{
+    margin: 0px 5px 5px 5px;
+    background-color: #444444;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 5px 5px
+}
+#weather-app{
+  padding: 50px 0px 20px 0px;
+  border-radius: 5px;
+}
+.js-btn{
+    color:white;
+    border-radius: 5px;
+    padding:2px 0px;
+    font-size: 1.15em;
+}
+.js-btn:hover{
+    background-color:#222222;
+    cursor:pointer;
+}
+#title-weather{
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+#metric{
+  background-color: white;
+  font-size: 0.75em;
+  cursor: pointer;
+  left: 15px;
+}
+#metric:hover{
+    background-color: #CCCCCC;
+}
+#weather-buttons{
+    text-align: left;
+}
+#imperial{
+  background-color: white;
+  font-size: 0.75em;
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+#imperial:hover{
+    background-color: #CCCCCC;
+}
+#weather{
+  color: black;
+}
+#local{
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+#forcast{
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+#icon {
+  display: block;
+  position: relative;
+  left: 45%;
+}
+#forcast-detail{
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+#temp{
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  display:
+}
+#tempF{
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  display: none;
+}
+#deg{
+  color: white;
+  font-size: 1em;
+  
+}
+#humid{
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+#wind{
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+#windF{
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  display: none;
+}
+#cloudy {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+#random-quote{
+    border-radius: 5px;
+    padding: 50px 0px;
+}
+#div1{
+  background-color: white;
+  color: ;
+  padding: 10px 10px 40px 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#background{
+  background-color: ;
+  height: 
+}
+#activation{
+  background-color: white;
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+#twitter{
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  padding: 0px 8px
+}
+#twitter-link{
+    text-decoration: none;
+    color: white;
+}
+
+#twitter-img{
+  height: 30px;
+}
+#welcome-text{
+  font-size:25px;
+  text-align: center
+}
+#quote{
+  font-size: 30px;
+  text-align: center
+}
+#author{
+  font-size: 15px;
+  text-align: right
+}
+#next-button{
+  background-color: ;
+  color: white;
+}
+#test{
+  color: black;
+}
+#wiki-app{
+  background-color: lightgray;
+  padding: 50px 0px 20px 0px;
+  border-radius: 5px;
+}
+#search{
+  
+}
+#srch-label{
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #428bca;
+}
+#srch{
+  margin: 0px 0px 5px 0px
+}
+#data{
+}
+#title-wiki{
+  background-color: #428bca;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  border-style: solid;
+  border-color: slategray;
+  border-width: 1px;
+  padding: 0px 5px;
+}
+#return-wiki{
+  display: none;
+  text-align: center;
+  margin: 10px 0px;
+}
+#snippet{
+  color: darkslategray;
+  text-decoration: none;
+  font-size: 0.9em;
+  border-style: solid;
+  border-color: slategray;
+  border-width: 1px;
+  padding: 0px 5px;
+}
+#result{
+  background-color: paleturquoise;
+  border-style: solid;
+  border-color: slategray;
+  border-radius: 5px;
+  border-width: 2px;
+}
+#twitch-app{
+  background-color: black;
+  padding: 50px 0px 20px 0px;
+  border-radius: 5px;
+}
+#grid-head{
+  font-size: 2em;
+  text-align: center;
+  background-color: #392c35;
+  padding: 10px;
+  color: white;
+}
+#grid{
+  background-color: #2C3539;
+  margin: 2px 0px 0px 0px;
+  text-align: center;
+  padding: 10px;
+}
+#grid1{
+  background-color: #2C3539;
+  margin: 2px 0px 0px 0px;
+  padding: 40px 10px;
+}
+#api{
+  color: white;
+}
+#logo{
+  border-radius: 40px;
+  height: 75px;
+  display: inline;
+  margin: 10px
+}
+#fail{
+  background-color: #39302c;
+  margin: 2px 0px 0px 0px;
+  padding: 10px 10px;
+}
+#num-sense-app{
+  background-color: steelblue;
+  padding: 50px 0px;
+  border-radius: 5px;
+}
+.num-label{
+  color: white;
+  font-size: 1em;
+  padding: 3px 0px 3px 30px
+}
+#num-sense-header{
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
+#num-sense-sub{
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  margin: 0px 0px 20px 0px;
+}
+#results-head{
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: -10px;
+  display: none;
+}
+#numLeast{
+  color: white;
+  font-size: 1.5em;
+}
+#numGreatest{
+  color: white;
+  font-size: 1.5em;
+}
+#numMean{
+  color: white;
+  font-size: 1.5em;
+}
+#numSum{
+  color: white;
+  font-size: 1.5em;
+}
+#numProduct{
+  color: white;
+  font-size: 1.5em;
+}
+#results-footer{
+  color: red;
+  font-size: 1em;
+  display: none;
+  padding: 0px 50px 0px 0px;
+}
+#factorial-app{
+  background-color: lightcyan;
+  padding: 50px 0px;
+  border-radius: 5px;
+}
+#fact-head{
+  text-align: center;
+  color: teal;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+#fact-subhead{
+  text-align: center;
+  color: teal;
+  font-size: 1em;
+  margin: 0px 0px 20px 0px;
+}
+#fact-label{
+  color:teal;
+  font-size: 1.5em;
+  margin: 0px 5px 0px 0px;
+}
+#factorial-num{
+  color:teal;
+  font-size: 1.25em;
+  margin: 0px 5px;
+}
+#fact-submit{
+  margin: 10px 15px;
+}
+#fact-result{
+  color:teal;
+  font-size: 1.5em;
+  margin: 10px
+}
+#fizzbuzz-app{
+  background-color: #222222;
+  border-radius: 5px;
+  padding: 50px 0px;
+}
+#fizzbuzz-head{
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: lightgreen;
+}
+#fizzbuzz-subhead{
+  text-align: center;
+  font-size: 1em;
+  color: lightblue;
+  margin: 10px 0px;
+}
+.fizzbuzz-label{
+  color: lightcoral;
+  font-size: 1.25em;
+  margin: 10px 0px;
+}
+#fizzbuzz-submit{
+    margin:10px 0px;
+}
+#fizzbuzz-result{
+  font-size: 1.25em;
+  color: mediumaquamarine;
+  padding: 20px 10px;
+}
+#palindrome-app{
+  background-color: lightgoldenrodyellow;
+  padding: 50px 0px;
+  border-radius: 5px;
+}
+#palindrome-head{
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+#palindrome-subhead{
+  text-align: center;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#palindrome-label{
+  text-align: right;
+  font-size:1.25em;
+}
+/*#palindrom-text*/
+input[id="palindrome-text"], textarea {
+  background-color : black;
+}
+input[id="Body"], textarea {
+    background-color: blue;
+}
+input[id="palindrome-text"], select, textarea{
+  color: mediumspringgreen;
+}
+input[id="palindrome-text"]:focus, textarea:focus {
+  color: mediumspringgreen;
+  background-color: black;
+}
+input[id="Body"]:focus, textarea:focus {
+  color: #555;
+  background-color: white;
+}
+input[id="palindrome-text"]:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: black;
+  background-color: black;
+}
+input[id="Body"]:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #999;
+  background-color: white;
+}
+input[id="palindrome-text"]:focus:-moz-placeholder, textarea:focus:-moz-placeholder {
+  color: black;
+  background-color: black;
+}
+input[id="Body"]:focus:-moz-placeholder, textarea:focus:-moz-placeholder {
+  color: #999;
+  background-color: white;
+}
+input[id="palindrome-text"]:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: black;
+  background-color: black;
+}
+input[id="Body"]:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #999;
+  background-color: white;
+}
+input[id="palindrome-text"]:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
+  color: black;
+  background-color: black;
+}
+input[id="Body"]:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
+  color: #999;
+  background-color: white;
+}
+input[id="palindrome-text"]::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    powderblue;
+  opacity: .8;
+}
+input[id="palindrome-text"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    powderblue;
+   opacity:  .8;
+}
+input[id="palindrome-text"]::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    powderblue;
+   opacity:  .8;
+}
+input[id="palindrome-text"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    powderblue;
+}
+#palindrome-submit{
+  margin: 10px 0px;
+}
+#palindrome-result{
+  text-align: center;
+  font-size: 1.5em;
+  margin: 10px 0px;
+}
+
+#telephone-app{
+  background-color: purple;
+  padding: 50px 0px;
+  border-radius: 5px;
+}
+#telephone-head{
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: bold;
+}
+#telephone-subhead{
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  margin: 10px 0px;
+}
+#telephone-label{
+  color: white;
+  font-size: 1.25em;
+  text-align: right;
+}
+#telephone-submit{
+  margin: 10px 0px;
+  background-color: goldenrod;
+  border-color: gold;
+}
+#telephone-submit:hover{
+    background-color: darkgoldenrod;
+}
+#telephone-result{
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+#weather-code{
+    display: none;
+}
+#rq-code{
+    display: none;
+}
+#wiki-code{
+    display: none;
+}
+#number-code{
+    display: none;
+}
+#palindrome-code{
+    display: none;
+}
+#fact-code{
+    display: none;
+}
+#fizz-code{
+    display: none;
+}
+#telephone-code{
+    display: none;
+}
+.jscode{
+    text-align: left;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.jscode-head{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+ul.black-pill>li.active>a, 
+ul.black-pill>li.active>a:focus, 
+ul.black-pill>li.active>a:hover {
+    color: #fff;
+    background-color: #222222;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+ul.black-pill>li>a, 
+ul.black-pill>li>a:focus, 
+ul.black-pill>li>a:hover {
+    color: #CCCCCC;
+    background-color: #444444;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+.java-navbar-toggle{
+    color: #444444;
+    width: 50px;
+    font-size: 1.25em;
+}
+.java-navbar-toggle:hover,
+.java-navbar-toggle:focus {
+  background-color: #18BC9C;
+  color: white;
+  border-color: #18BC9C;
+}
+#resume-button{
+    text-decoration: none;
+    color: #222222;
+    margin-bottom: 5px;
+}
+#resume-object{
+    margin-top:10px;
+}

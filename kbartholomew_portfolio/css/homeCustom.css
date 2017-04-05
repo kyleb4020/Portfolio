@@ -1,0 +1,39 @@
+﻿.img-base {
+    width: 35%;
+    height: 35%;
+    -webkit-transition: width 2s 1s, height 2s 1s; /* Safari */
+    transition: width 2s 1s, height 2s 1s;
+}
+
+.img-start{
+    width: 0%;
+    height: 0%;
+    -webkit-transition: width 2s 1s, height 2s 1s; /* Safari */
+    transition: width 2s 1s, height 2s 1s;
+}
+
+.nav-title{
+    position: relative;
+    left: 50px;
+}
+
+.img-tiny{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    left: 1.5%;
+    top: 15%;
+    -webkit-transform: rotate(-360deg); /* Safari */
+    transform: rotate(-360deg);
+    -webkit-transition: width 1s, height 1s, -webkit-transform 2s; /* Safari */
+    transition: width 1s, height 1s, transform 2s;
+}
+
+.img-grow {
+    height:50px;
+    width:50px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
