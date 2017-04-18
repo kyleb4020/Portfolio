@@ -251,6 +251,7 @@
     <Content Include="pdf\Resume Feb2017.pdf" />
     <Content Include="private.config" />
     <Content Include="pdf\Kyle Bartholomew.pdf" />
+    <Content Include="CodeChallenges\CDInterviewQuestions.zip" />
     <None Include="Properties\PublishProfiles\kbartholomew-portfolio - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\kbartholomew-portfolio - Web Deploy.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
